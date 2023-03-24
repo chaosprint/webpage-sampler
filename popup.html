@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 300px;
+        margin: 10px;
+        padding: 0;
+      }
+      h3, button, p, input {
+        width: 70px;
+      }
+
+      input, p, h3 {
+        width: 240px
+      }
+      * {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>sampling audio from any web page</h3>
+    <button id="startRecording">record</button><button id="stopRecording">stop</button>
+    <p>recorded time:</p>
+    <p id="timer">00:00:000</p>
+    <p>start portion:</p>
+    <input id="startPoint", value="0.0"></input>
+    <p>end portion:</p>
+    <input id="endPoint", value="1.0"></input>
+    <br /><br />
+    <button id="play">loop</button>
+    <p>apply fade in millisecond:</p>
+    <input id="fadeInMillisecond", value="0.0"></input>
+    <p>apply fade out millisecond:</p>
+    <input id="fadeOutMillisecond", value="0.0"></input>
+    <br /><br />
+    <button id="saveRecording">save</button>
+    <script src="popup.js"></script>
+  </body>
+</html>

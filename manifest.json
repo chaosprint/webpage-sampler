@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Web Page Sampler",
+    "description": "Sample audio from web pages and save them as a wav file",
+    "version": "0.1.0",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabCapture"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+}
