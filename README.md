@@ -4,7 +4,11 @@
 
 This is a Chrome extension that helps to sample audio from any web page.
 
-Instead of using cursor for 
+Instead of using cursor, I use a text-based workflow.
+
+Demo video:
+
+https://youtu.be/EXUtzkY7GZY
 
 ## Installation
 
